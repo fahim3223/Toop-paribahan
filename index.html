@@ -1,65 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toop-Paribahan</title>
-    <link rel="stylesheet" href="style/style.css">
-    <!-- tailwind and daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toop-Paribahan</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- tailwind and daisy ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="md:container md:mx-auto">
-   <header >
+
+<body>
+  <header class="md:container md:mx-auto">
     <!-- navbar start -->
     <section>
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-              </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a class="text-[#424247] text-xl">Home</a></li>
-                <li><a class="text-[#424247] text-xl">About</a></li>
-                <li><a class="text-[#424247] text-xl">Destination</a></li>
-                <li><a class="text-[#424247] text-xl">Search</a></li>
-              </ul>
-              
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-            <a class="text-4xl font-extrabold">Toop-Paribahan</a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-2 mt-3">
-                <li><a class="text-[#424247] text-xl">Home</a></li>
-                <li><a class="text-[#424247] text-xl">About</a></li>
-                <li><a class="text-[#424247] text-xl">Destination</a></li>
-                <li><a class="text-[#424247] text-xl">Search</a></li>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-[#424247] text-xl">Home</a></li>
+              <li><a class="text-[#424247] text-xl">About</a></li>
+              <li><a class="text-[#424247] text-xl">Destination</a></li>
+              <li><a class="text-[#424247] text-xl">Search</a></li>
             </ul>
+
           </div>
-          <div class="navbar-end">
-            <button class="btn ">
-                <p class="text-[#1DD10066] text-lg font-bold">Bus</p>
-                <img src="images/bus-icon.png" alt="">
-              </button>
+          <a class="text-4xl font-extrabold">Toop-Paribahan</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-2 mt-3">
+            <li><a class="text-[#424247] text-xl">Home</a></li>
+            <li><a class="text-[#424247] text-xl">About</a></li>
+            <li><a class="text-[#424247] text-xl">Destination</a></li>
+            <li><a class="text-[#424247] text-xl">Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button class="btn ">
+            <p class="text-[#1DD10066] text-lg font-bold">Bus</p>
+            <img src="images/bus-icon.png" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="md:container md:mx-auto">
+    <!-- banner start -->
+    <section>
+      <div class="max-w-sm min-h-sm ml-4 lg:max-w-full lg:h-[750px] rounded-2xl mt-8 hero"
+        style="background-image: url(Images/banner.png);">
+        <div class="px-4 py-4 text-center text-white">
+          <h3 class="font-extrabold text-7xl pb-16">End-To-End Travel with</h3>
+          <h3 class="font-extrabold text-[#1DD100] text-7xl pb-14">Toop Paribahan</h3>
+          <p class="font-medium text-2xl pb-4">Yes, you can run unit tests and view the results directly within the app. <br> The
+            integrated testing features allow for a streamlined .</p>
+          <button class="rounded-xl pt-4 pb-4 pl-6 pr-6 mt-6 text-center font-bold text-xl text-black bg-[#1DD100]">Buy Tickets</button>
+        </div>
+      </div>
+    </section>
+    <!-- best offer start -->
+    <section class="mt-16">
+      <div>
+        <h1 class="font-extrabold text-4xl pb-8 text-center">Best offers for you</h1>
+      </div>
+      <div class="flex">
+        <div class="ml-4 lg:w-[775px] lg:h-[220px] rounded-2xl mt-8 hero"
+        style="background-image: url(Images/Group\ 115.png);">
+        <div class="flex gap-28">
+          <div class="pt-10">
+            <h2 class="text-5xl font-extrabold pb-2">15% OFF</h2>
+            <h4 class="text-2xl font-semibold pb-2">on your next purchase</h4>
+            <p class="text-xl opacity-70 font-medium">use by January 2025</p>
+          </div>
+          <img src="images/cupon-devider.png" alt="">
+          <div class="pt-16 pr-12">
+            <h2 class="text-4xl font-extrabold pb-2">NEW15</h2>
+            <h4 class="text-xl font-medium opacity-70">Coupon Code</h4>
           </div>
         </div>
-       </section>
-   </header>
+        </div>
+        <div class="ml-4 lg:w-[775px] lg:h-[220px] rounded-2xl mt-8 hero"
+        style="background-image: url(Images/Rectangle\ 8.png);">
+        <div class="flex gap-24">
+          <div class="pt-10 pl-8">
+            <h2 class="text-5xl font-extrabold pb-2">20% OFF</h2>
+            <h4 class="text-2xl font-semibold pb-2">on your next purchase</h4>
+            <p class="text-xl font-medium opacity-70">use by January 2025</p>
+          </div>
+          <img src="images/cupon-devider.png" alt="">
+          <div class="pt-16 pr-12">
+            <h2 class="text-4xl font-extrabold pb-3">Couple 20</h2>
+            <h4 class="text-xl font-medium opacity-70">Coupon Code</h4>
+          </div>
+        </div>
+        </div>
+      </div>
+     <div class="text-center">
+       <button class="btn btn-outline btn-success text-xl pt-4 pb-4 pl-6 pr-6 mt-6">See All Offers</button></div>
+    </section>
+  </main>
+  <footer>
 
-    <main >
-      <!-- banner start -->
-        <section>
-          <div class="max-w-sm min-h-[360px] ml-4 lg:max-w-full lg:h-[450px] rounded-2xl mt-8 hero" style="background-image: url(Images/banner.png);">
-            <div class="hero-overlay bg-opacity-50 rounded-2xl"></div>
-          <div class="px-4 py-4 pt-20 lg:bottom-9 lg:pr-[780px] lg:pt-44 text-white">
-            <h3 class="font-extrabold text-3xl pb-4">Junior Program</h3>
-            <p class="font-medium pb-1">Hockey has a rich history, with variations like field hockey and roller hockey, <br> but ice hockey, particularly popular in North America, Europe, and other cold-climate regions, <br> has become a cultural phenomenon.</p>
-        </section>
-    </main>
-    <footer>
-      
-    </footer>
-    <script src="pro.js"></script>
+  </footer>
+  <script src="pro.js"></script>
 </body>
+
 </html>
